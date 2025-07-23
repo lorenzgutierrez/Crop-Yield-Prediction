@@ -37,7 +37,7 @@ Nota: En Sandbox, se encuentra mayoritariamente mi linea de razonamiento. De ese
 
 Esto me resulto particularmente interesante, aunque al final terminé diseñando un modelo mas avanzado para intentar capturar comportamientos regionales. 
 
-## Tareas no cumplidas
+## Tareas a completar
 
 1. API Rest: No se hacerlo, podría intentarlo, pero me tomaría mucho mas tiempo. Hacerlo con IA no me parece adecuado. Todas las tareas realizadas con IA las puedo hacer yo, pero me resulta tedioso.
 2. Containerizacion: Requiero tiempo
@@ -97,13 +97,15 @@ En qué casos NO generé codigo con IA (o uso minimo):
 1. **Descargar el código**
 
   ```bash
-  git clone [URL_DEL_REPOSITORIO]
-  cd [NOMBRE_DEL_DIRECTORIO]
-
+  git clone https://github.com/lorenzgutierrez/Crop-Yield-Prediction.git
+  cd Crop-Yield-Prediction
+  ```
+  
 2. **Instalar dependencias**
 
   ```bash
   pip install -r requirements.txt
+  ```
 
 3. **Modificar configuracion**
 
@@ -113,7 +115,7 @@ En qué casos NO generé codigo con IA (o uso minimo):
 
  ```bash
    python main.py
-
+```
 
 
 
