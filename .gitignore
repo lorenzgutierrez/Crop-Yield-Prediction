@@ -1,11 +1,6 @@
 # Archivos de log
 *.log
 
-# Carpeta de modelos
-models/
-
-# Carpeta de figuras
-figuras/
 
 # Archivos ZIP
 *.zip

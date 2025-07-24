@@ -483,7 +483,7 @@ class Models(object):
             n_cols = min(3, n_crops)
             n_rows = (n_crops + n_cols - 1) // n_cols
             
-            fig, axes = plt.subplots(n_rows, n_cols, figsize=(7*n_cols, 5*n_rows))
+            fig, axes = plt.subplots(n_rows, n_cols, figsize=(10*n_cols, 10*n_rows))
             if n_crops == 1:
                 axes = [axes]
             elif n_rows == 1:
@@ -526,7 +526,7 @@ class Models(object):
                               label='Train/Test Split')
                 
                 ax.set_xlabel('Year', fontweight='bold')
-                ax.set_ylabel('Global Production (Sum of All Countries)', fontweight='bold')
+                #ax.set_ylabel('Global Production (Sum of All Countries)', fontweight='bold')
                 ax.grid(True, alpha=0.3)
                 ax.legend(fontsize=9, loc='best')
                 
@@ -549,7 +549,7 @@ class Models(object):
             
             plt.suptitle(f'Global Production Aggregation by Crop - {model_name}', 
                         fontsize=16, fontweight='bold')
-            plt.tight_layout()
+            #plt.tight_layout()
             plt.show()
 
             # savefig
